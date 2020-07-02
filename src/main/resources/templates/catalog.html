@@ -2,9 +2,17 @@
 <html lang="en" xmlns:th="https://www.thymeleaf.org">
 <head>
   <meta charset="UTF-8">
-  <title>Catalogo</title>
+  <title th:text="${title}"></title>
 </head>
 <body>
- <h1 th:text="${lista}"></h1>
+ <h1 th:text="${title}"></h1>
+<div th:if="${list.size() == 0}"> No hay productos disponibles! </div>
+
+<table>
+  <thead></thead>
+  <tbody>
+
+  </tbody>
+</table>
 </body>
 </html>
