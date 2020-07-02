@@ -1,4 +1,6 @@
-package com.dolphinhouse.dolphinhouse.products;
+package com.dolphinhouse.dolphinhouse.models.services;
+
+import com.dolphinhouse.dolphinhouse.models.domain.Product;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.dolphinhouse.dolphinhouse.products;
+package com.dolphinhouse.dolphinhouse.models.domain;
 
 import com.sun.istack.NotNull;
 

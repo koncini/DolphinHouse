@@ -1,4 +1,4 @@
-package com.dolphinhouse.dolphinhouse.index;
+package com.dolphinhouse.dolphinhouse.contollers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
