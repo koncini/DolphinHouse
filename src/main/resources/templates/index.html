@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="https://www.thymeleaf.org">
 <head>
+  <title th:text="${title}"></title>
 </head>
 <body>
 <div th:replace="fragments/header :: header">
@@ -28,7 +29,7 @@
       <a>Sign up</a>
     </p>
   </div>
-  <div th:replace="fragments/footer :: footer">&copy; 2016 The Static Templates</div>
+  <div th:replace="fragments/footer :: footer">&copy; 2020 The Static Templates</div>
 </div>
 </body>
 </html>
